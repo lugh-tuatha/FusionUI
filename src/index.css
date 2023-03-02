@@ -1,8 +1,14 @@
-a {
-  text-decoration: inherit;
+:root{
+  --primary: #6625BF;
 }
 
-*{
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+body{
   margin: 0;
   padding: 0;
+  background-color: gray;
 }

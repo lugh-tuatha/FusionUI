@@ -4,7 +4,10 @@ import App from './App'
 import './index.css'
 
 import About from './pages/About'
-import Documentation from './pages/Documentation'
+import Documentation from './pages/Docs'
+import Blogs from './pages/Blogs'
+import Showcase from './pages/Showcase'
+import Components from './pages/Components'
 
 import {
   createBrowserRouter,
@@ -17,12 +20,24 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
+    path: "/docs",
+    element: <Documentation />,
+  },
+  {
+    path: "/components",
+    element: <Components />,
+  },
+  {
     path: "/about",
     element: <About />,
   },
   {
-    path: "/documentation",
-    element: <Documentation />,
+    path: "/blogs",
+    element: <Blogs />,
+  },
+  {
+    path: "/showcase",
+    element: <Showcase />,
   },
 ]);
 
