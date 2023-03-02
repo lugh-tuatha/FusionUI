@@ -1,9 +1,10 @@
-nav{
+navbar-wide{
   height: 6rem;
 }
 
 nav ul{
   list-style-type: none;
+  padding: 0;
 }
 
 a:hover {
@@ -17,7 +18,7 @@ nav .line{
 }
 
 .navbar-mobile{
-  position: fixed;
+  position: absolute;
   width: 90%;
   top: 0;
   height: 6rem;
@@ -46,6 +47,10 @@ nav .line{
 }
 
 .nav-menu ul li{
-  margin-top: 1rem;
-  width: 95%;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+.starter{
+  height: 6rem;
 }

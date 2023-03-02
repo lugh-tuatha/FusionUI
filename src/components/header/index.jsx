@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <div>
-      <nav className='d-flex align-items-center justify-content-between'>
+      <nav className='d-flex align-items-center justify-content-between navbar-wide'>
         <h1 className='d-none d-md-block'>LOGO</h1>
 
         <div className='d-md-flex d-none'>
@@ -54,6 +54,8 @@ function Header() {
             <li><Link to="/showcase">SHOWCASE</Link></li>
           </ul>
         </div>
+
+        <div className="starter"></div>
       </nav>
     </div>
 
