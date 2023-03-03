@@ -32,11 +32,11 @@ nav .line{
   height: 100%;
   background-color: var(--bg-dark);
   transition: 100ms;
-  opacity: 0;
+  display: none;
 }
 
 .nav-menu.active {
-  opacity: 1;
+  display: block;
   transition: 100ms;
 }
 
