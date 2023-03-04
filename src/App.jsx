@@ -8,8 +8,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Button />
+      <section className=''>
+        <Header />
+        <h2>Revolutionize Your Web Design with Our Custom CSS Framework</h2>
+        <p>Effortlessly create stunning and responsive web designs with our intuitive and flexible CSS framework</p>
+        <Button />
+      </section>
+
     </div>
   )
 }
