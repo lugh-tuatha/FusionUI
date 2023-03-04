@@ -3,16 +3,23 @@ import './App.css'
 
 import Header from './components/header'
 import Button from './components/button'
+import Searchbar from './components/searchbar'
+
 
 function App() {
 
   return (
     <div className="App">
-      <section className=''>
-        <Header />
-        <h2>Revolutionize Your Web Design with Our Custom CSS Framework</h2>
-        <p>Effortlessly create stunning and responsive web designs with our intuitive and flexible CSS framework</p>
-        <Button />
+      <Header />
+      <section className='getStarted d-flex align-items-center justify-content-center'>
+        <div>
+          <h2 className='text-center mx-auto'>Revolutionize Your Web Design with Our Custom CSS Framework</h2>
+          <p className='text-center m-0 mx-auto'>Effortlessly create stunning and responsive web designs with our intuitive and flexible CSS framework</p>
+          <div className='d-flex search gap-5'>
+            <Button />
+            <Searchbar />
+          </div>
+        </div>
       </section>
 
     </div>

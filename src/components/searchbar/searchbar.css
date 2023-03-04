@@ -1,0 +1,26 @@
+input:hover,
+input{
+  border: none;
+  outline: none;
+  border-bottom: 1.5px black solid;
+}
+
+input{
+  background-color: transparent;
+  position: absolute;
+  height: 2.5rem;
+  padding-left: 2rem;
+}
+
+input[type="search"]::placeholder{
+  color: var(--text-color);
+  font-weight: 300;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.searchIcon{
+  margin: .5rem 0;
+}

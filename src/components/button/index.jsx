@@ -4,7 +4,7 @@ import './button.css'
 
 function Button() {
   return (
-    <button>Ace</button>
+    <button>Get Started</button>
   )
 }
 

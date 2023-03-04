@@ -2,3 +2,28 @@
   max-width: 90%;
   margin: 0 auto;
 }
+
+.getStarted{
+  height: 70vh;
+}
+
+.getStarted h2{
+  font-size: 2.25rem;
+  width: 59rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.getStarted p{
+  font-size: 1.25rem;
+  font-weight: 500;
+  width: 35rem;
+  line-height: 2.25rem;
+}
+
+.getStarted .search{
+  width: 23rem;
+  margin: 2rem auto;
+}
+
+
