@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <div>
-      <nav className='d-flex align-items-center justify-content-between navbar-wide'>
+      <nav className='d-flex align-items-center justify-content-between navbar-wide my-3'>
         <h1 className='d-none d-md-block'>LOGO</h1>
 
         <div className='d-md-flex d-none'>
