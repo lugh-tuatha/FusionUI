@@ -4,6 +4,7 @@ import './App.css'
 import Header from './components/header'
 import Button from './components/button'
 import Searchbar from './components/searchbar'
+import Subscription from './components/subscription'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         </div>
       </section>
 
+      <Subscription />
     </div>
   )
 }

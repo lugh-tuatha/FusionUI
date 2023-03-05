@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import './header.css'
 
@@ -19,11 +19,11 @@ function Header() {
 
         <div className='d-md-flex d-none'>
           <ul className='d-md-flex my-auto gap-5 me-4'>
-            <li><Link to="/">HOME</Link></li>
-            <li><Link to="/docs">DOCS</Link></li>
-            <li><Link to="/about">ABOUT</Link></li>
-            <li><Link to="/blogs">BLOGS</Link></li>
-            <li><Link to="/showcase">SHOWCASE</Link></li>
+            <li><NavLink to="/">HOME</NavLink></li>
+            <li><NavLink to="/docs">DOCS</NavLink></li>
+            <li><NavLink to="/about">ABOUT</NavLink></li>
+            <li><NavLink to="/blogs">BLOGS</NavLink></li>
+            <li><NavLink to="/showcase">SHOWCASE</NavLink></li>
           </ul>
 
           <div className='d-md-flex align-items-center gap-4'>
