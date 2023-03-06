@@ -1,10 +1,11 @@
 :root{
   --primary: #6625BF;
   --secondary: ;
-  --bg-dark: gray;
-  --text-color: white;
+  --bg-dark: #131417;
+  --text-color: #717691;
+  --text-color-2: #aaaebc;
 
-  --text-color-dark: ;
+  --text-color-dark: #fefffe;
   --bg-light: ;
 }
 

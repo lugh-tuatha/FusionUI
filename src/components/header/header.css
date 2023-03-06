@@ -9,7 +9,7 @@ nav ul {
 }
 
 a:hover {
-  color: var(--primary);
+  color: var(--text-color-2);
 }
 
 nav .line {
@@ -55,19 +55,19 @@ nav .line {
   height: 3rem;
 }
 
-nav a.active {
-  background-color: black;
+.navbar-wide a.active {
+  color: var(--text-color-dark);
 }
 
-nav ul li:after{
+.navbar-wide ul li:after{
   content: '';
   display: block;
   background-color: white;
   width: 0;
   height: 1.5px;
-  transition: ease .20s;
+  transition: ease .4s;
 }
 
-nav ul li:hover::after{
+.navbar-wide ul li:hover::after{
   width: 100%;
 }
