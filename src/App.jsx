@@ -5,6 +5,7 @@ import Header from './components/header'
 import Button from './components/button'
 import Searchbar from './components/searchbar'
 import Subscription from './components/subscription'
+import Cholo from './components/cholo'
 
 
 function App() {
@@ -22,8 +23,7 @@ function App() {
           </div>
         </div>
       </section>
-
-      <Subscription />
+      <Cholo />
     </div>
   )
 }
