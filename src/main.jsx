@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 
-import About from './pages/About'
 import Documentation from './pages/Docs'
 import Blogs from './pages/Blogs'
 import Showcase from './pages/Showcase'
@@ -26,10 +25,6 @@ const router = createBrowserRouter([
   {
     path: "/components",
     element: <Components />,
-  },
-  {
-    path: "/about",
-    element: <About />,
   },
   {
     path: "/blogs",

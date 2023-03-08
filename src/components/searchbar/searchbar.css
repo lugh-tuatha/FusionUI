@@ -8,7 +8,7 @@ input{
 input{
   background-color: transparent;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   height: 2.5rem;
   padding-left: 2rem;
 }

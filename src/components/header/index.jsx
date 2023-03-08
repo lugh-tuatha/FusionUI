@@ -21,7 +21,6 @@ function Header() {
           <ul className='d-md-flex my-auto gap-5 me-4'>
             <li><NavLink to="/">HOME</NavLink></li>
             <li><NavLink to="/docs">DOCS</NavLink></li>
-            <li><NavLink to="/about">ABOUT</NavLink></li>
             <li><NavLink to="/blogs">BLOGS</NavLink></li>
             <li><NavLink to="/showcase">SHOWCASE</NavLink></li>
           </ul>
