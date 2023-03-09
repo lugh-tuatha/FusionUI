@@ -5,7 +5,7 @@ function Cholo() {
   return (
     <>
       <div className="container-fluid">
-        cholo
+        choloasdasdasdasdasd
         <div>
 
         </div>

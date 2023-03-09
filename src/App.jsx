@@ -5,7 +5,7 @@ import Header from './components/header'
 import Button from './components/button'
 import Searchbar from './components/searchbar'
 import Footer from './components/footer'
-
+import Cholo from './components/cholo'
 function App() {
   return (
     <>
@@ -21,6 +21,7 @@ function App() {
             </div>
           </div>
         </section>
+        <Cholo />
       </div>
       <div>
         <Footer />
