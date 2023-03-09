@@ -5,6 +5,7 @@
   --bg-dark-2: #282828;
   --text-color: #717691;
   --text-color-2: #aaaebc;
+  --text-color-3: #ACACAC;
 
   --text-color-light: #fefffe;
   --bg-light: ;
@@ -27,4 +28,9 @@ body{
 
 h1, h2, h3, h4, h5, h6, p{
   color: var(--text-color-light);
+}
+
+input, textarea{
+  outline: none;
+  border: none;
 }

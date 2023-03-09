@@ -15,7 +15,7 @@ function App() {
           <div>
             <h2 className='text-center mx-auto'>Revolutionize Your Web Design with Our Custom CSS Framework</h2>
             <p className='text-center m-0 mx-auto'>Effortlessly create stunning and responsive web designs with our intuitive and flexible CSS framework</p>
-            <div className='d-flex search gap-5'>
+            <div className='d-flex search gap-5 align-items-center'>
               <Button />
               <Searchbar />
             </div>
