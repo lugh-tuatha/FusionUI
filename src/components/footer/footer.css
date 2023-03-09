@@ -1,0 +1,58 @@
+.row {
+  margin: 0;
+}
+
+.footer{
+  background-color: var(--bg-dark-2);
+  position: relative;
+  bottom: 0;
+  padding: 4rem 0;
+}
+
+.footer a{
+  color: var(--text-color-3);
+}
+
+.footer .info{
+  background-color: gray;
+  border-radius: .25rem;
+}
+
+.footer .info img{
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.footer .links p{
+  line-height: 2rem;
+}
+
+.footer .devs p{
+  line-height: 2rem;
+}
+
+.footer .who-are-we{
+  border-right: 1px solid #575757;
+}
+
+.footer .contact{
+  margin-left: 10rem;
+}
+
+.footer .contact form{
+  background-color: #D9D9D9;
+}
+
+.footer input,
+.footer textarea{
+  border-radius: .25rem;
+}
+
+.footer .contact input{
+  height: 2.25rem;
+}
+
+.footer .contact input[type="email"],
+.footer .contact textarea {
+  width: 100%;
+}
