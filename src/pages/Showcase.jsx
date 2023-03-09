@@ -3,7 +3,7 @@ import Header from '../components/header'
 
 function Showcase() {
   return (
-    <div>
+    <div className='container'>
       <Header />
       <p>Showcase</p>
     </div>

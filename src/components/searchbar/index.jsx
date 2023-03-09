@@ -5,7 +5,7 @@ import * as BsIcon from "react-icons/bs";
 
 function Searchbar() {
   return (
-    <div>
+    <div className='search'>
       <input type="search" placeholder='Quick Search' />
       <BsIcon.BsSearch className='searchIcon' size={24} />
     </div>
