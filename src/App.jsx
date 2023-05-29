@@ -5,7 +5,6 @@ import Header from './components/header'
 import Button from './components/button'
 import Searchbar from './components/searchbar'
 import Footer from './components/footer'
-
 function App() {
   return (
     <>

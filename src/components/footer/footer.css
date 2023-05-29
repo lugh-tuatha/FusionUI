@@ -31,8 +31,7 @@
   line-height: 2rem;
 }
 
-.footer .who-are-we {
-  width: 40rem;
+.footer .who-are-we{
   border-right: 1px solid #575757;
 }
 
@@ -48,11 +47,6 @@
 .footer input,
 .footer textarea {
   border-radius: .25rem;
-  padding-left: 1rem;
-}
-
-.footer textarea {
-  padding-top: .5rem;
 }
 
 .footer .contact input {
