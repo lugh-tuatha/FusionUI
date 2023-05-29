@@ -6,6 +6,8 @@ import Button from './components/button'
 import Searchbar from './components/searchbar'
 import Footer from './components/footer'
 import Cholo from './components/cholo'
+import Neobrutalism from './components/neobrutalism'
+
 function App() {
   return (
     <>
@@ -22,6 +24,7 @@ function App() {
           </div>
         </section>
         <Cholo />
+        <Neobrutalism />
       </div>
       <div>
         <Footer />
