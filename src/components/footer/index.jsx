@@ -6,8 +6,8 @@ import * as AiIcons from "react-icons/ai";
 function Footer() {
   return (
     <div className='w-100 footer'>
-      <div className="row">
-        <div className="col-lg-4 who-are-we">
+      <div className="d-flex justify-content-center">
+        <div className="who-are-we">
           <h3 className='fw-bold text-center'>Who are we ?</h3>
 
           <div className='info mt-2 w-75 mx-auto'>
@@ -30,7 +30,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="col-lg-7 ms-5 d-flex">
+        <div className="ms-5 d-flex">
           <div>
             <h3 className='fw-bold'>Quick Links</h3>
             <div>
